@@ -31,3 +31,37 @@
 .header-container ul li:hover {
   color: #fea400;
 }
+
+/* main */
+.main-container {
+  background-color: rebeccapurple;
+  width: 100vw;
+  height: calc(100vh - 69px);
+  background-image: url("images/bg-pizzas.jpg");
+}
+
+#home {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  color: #ffffff;
+}
+#home h1 {
+  margin-top: 10rem;
+  font-weight: 300;
+  font-size: 3rem;
+}
+#home p {
+  font-weight: 400;
+  margin-top: 1rem;
+}
+.btn-menu {
+  margin-top: 1.5rem;
+  padding: 12px 15px;
+  border: none;
+  border-radius: 6px;
+  background-color: #fea400;
+  font-weight: bold;
+  font-size: 1rem;
+}
