@@ -5,8 +5,9 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
-.app {
+body {
   width: 100vw;
+  overflow-x: hidden;
 }
 
 .header-container {
@@ -35,9 +36,10 @@
 /* main */
 .main-container {
   background-color: rebeccapurple;
-  width: 100vw;
+
   height: calc(100vh - 69px);
   background-image: url("images/bg-pizzas.jpg");
+  background-size: cover;
 }
 
 #home {
@@ -64,4 +66,39 @@
   background-color: #fea400;
   font-weight: bold;
   font-size: 1rem;
+}
+
+.menu-section {
+  width: 100vw;
+
+  background-color: beige;
+  padding: 20px 10%;
+}
+h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+.cards {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.card {
+  display: inline-block;
+  background-color: aliceblue;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px -4px rgba(0, 0, 0, 0.5);
+  width: 420px;
+  text-align: left;
+}
+.descripton h3,
+p {
+  padding: 0.8rem 1.25rem;
+}
+.card img {
+  width: 420px;
+  border-radius: 8px 8px 0px 0px;
 }
